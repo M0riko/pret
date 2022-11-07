@@ -1,0 +1,23 @@
+.contacts {
+    padding-top: 110px;
+    padding-bottom: 80px;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__text {
+        margin-top: 75px;
+        text-align: center;
+    }
+    .btn {
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+        margin: 0 auto;   
+        margin-top: 30px;
+     }
+
+}

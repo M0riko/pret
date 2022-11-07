@@ -1,0 +1,25 @@
+.header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    .container {
+    display: flex;
+    justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        span {
+            display: block;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+
+    &__text {
+        margin-left: 10px;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+
+}

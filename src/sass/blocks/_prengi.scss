@@ -1,0 +1,50 @@
+.prengi {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__items {
+        position: relative;
+        width: 360px;
+        height: 255px;
+        border: 1px solid #ececec;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    &__subtext {
+        font-size: 18px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+        &_bold {
+            font-weight: 700;
+        }
+    }
+
+    &__page {
+        margin-top: 50px;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 33px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30.04px;
+        margin-bottom: 35px;
+    }
+
+    &__bg {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+    }
+}

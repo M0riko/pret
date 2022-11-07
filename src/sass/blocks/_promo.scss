@@ -1,0 +1,52 @@
+.promo {
+    padding-top: 40px;
+    background: url("../../img/gb-img-screen1.png") center (center/cover) no-repeat;
+    min-height: 700px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        margin-top: 130px;
+        width: 530px;
+
+    }
+
+    &__subtext {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+        margin-top: 25px;
+        width: 425px;
+        span {
+            font-weight: 400;
+        }
+
+    }
+
+    .btn {
+        margin-top: 40px;
+    }
+    &__nav {
+        width: 540px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                list-style-type: none;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &__mobile {
+        margin-top: 67px;
+        text-align: right;
+    }
+}

@@ -1,0 +1,78 @@
+.represents {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background: url('../../img/represents/bg-represents.png') center (center/cover) no-repeat;
+    height: 890px;
+    &__title {
+        text-align: center;
+    }
+    &__tabs {
+        border-radius: 3px;
+        padding: 20px 30px;
+        border:1px solid #ffffff;;
+        margin: 25px auto 0 auto;
+        width: 840px;
+        height: 65px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li {
+                list-style-type: none;
+                transition: .3s all;
+                    transition: .3s all;
+                    text-decoration: none;
+                    color: #ffffff;
+                    :hover {
+                        transition: .3s all;
+                        color: rgb(0, 140, 255);
+                        cursor: pointer;
+                    }
+                
+            }
+        }
+        .active {
+            color: rgb(0, 140, 255);
+        }
+
+
+    }
+    &__line {
+        position: relative;
+        &:before {
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 50px;
+            background-color: rgb(160, 160, 160);
+            right: -17px;
+            top: -13px;
+        }
+    }
+    &__corusel {
+        margin: 35px auto 0 auto;
+        width: 950px;
+        &_inner {
+            position: relative;
+        }
+    }
+
+    .slick-prev, .slick-next {
+        background: none;
+        border: none;
+        position: absolute;
+    }
+
+    .slick-prev {
+        top: 50%;
+        transform: translateY(-50%);
+        left: -30px;
+    }
+
+    .slick-next {
+        top: 50%;
+        transform: translateY(-50%);
+        right: -10px;
+    }
+
+}
